@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="container p-3">
+        <h1 className="title">My Personal To Do List</h1>
         <CtxTodo.Provider value={[todos,setTodos]}>
        <Todos/>
        <FormToDo/>
